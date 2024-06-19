@@ -17,8 +17,6 @@ Lightweight boilerplate project to set up a React 17 web application on AWS Lamb
 - Full [TypeScript](https://www.typescriptlang.org/) support using Babel 7 and Webpack 5, including custom [module resolution](https://www.typescriptlang.org/docs/handbook/module-resolution.html).
 - Working [Jest](https://jestjs.io/) test environment.
 
-[Looking for the plain JavaScript version of this boilerplate?](https://github.com/arabold/serverless-react-boilerplate/)
-
 ## Overview
 
 ### How Does It Work?
@@ -31,7 +29,7 @@ All resources, including the S3 bucket for hosting static content, are created a
 
 ### Folder Structure
 
-```
+```text
 serverless-react-boilerplate/
 │
 ├── public/ - Public assets which will retain their original file names and folder structure

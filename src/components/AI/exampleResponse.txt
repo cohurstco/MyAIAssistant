@@ -1,0 +1,539 @@
+{"model":"mistral","created_at":"2024-06-18T22:00:20.850501Z","response":" Title","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.8700416Z","response":":","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.8876107Z","response":" The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.9070473Z","response":" L","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.925809Z","response":"l","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.9441889Z","response":"ama","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.9631768Z","response":" G","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:20.9807826Z","response":"raz","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0005651Z","response":"ers","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0182833Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0359201Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0535975Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0722363Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.0895283Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1077144Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1247452Z","response":"In","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1428189Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1609845Z","response":" maj","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1790108Z","response":"estic","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.1970739Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.2155349Z","response":" myst","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.23403Z","response":"ical","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.2542915Z","response":" landsc","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.5004824Z","response":"apes","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.5192194Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.5379022Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.555218Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.5740742Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.5920316Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.6096085Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.6272357Z","response":" unique","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.7401363Z","response":" scene","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.7587412Z","response":" unf","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.7764378Z","response":"olds","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.7953389Z","response":" every","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.8130457Z","response":" day","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.8321263Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.8492503Z","response":" It","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.8673989Z","response":"'","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.8859345Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.9032389Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.9217674Z","response":" break","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.939755Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.9582509Z","response":" dawn","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.9757458Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:21.9941396Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0116656Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0294329Z","response":" sun","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0468605Z","response":"'","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0642359Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0828448Z","response":" first","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.0999208Z","response":" r","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.1185599Z","response":"ays","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.1366939Z","response":" kiss","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.1548415Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.1729665Z","response":" snow","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.1925824Z","response":"-","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.2142163Z","response":"c","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.2346338Z","response":"apped","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.2539082Z","response":" peaks","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.2728394Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.292517Z","response":" casting","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.3135596Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.3315879Z","response":" golden","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.3509298Z","response":" glow","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.3713201Z","response":" over","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.3891914Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.406498Z","response":" l","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.4263206Z","response":"ush","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.4442916Z","response":" val","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.4647691Z","response":"le","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.4892944Z","response":"ys","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5068135Z","response":" below","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5242851Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5431596Z","response":" This","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5611304Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5784597Z","response":" where","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.5985832Z","response":" you","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.6230451Z","response":" will","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.6476097Z","response":" find","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.6711643Z","response":" our","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.6896993Z","response":" protagon","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.710164Z","response":"ists","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.730915Z","response":" -","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.7504797Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.7702752Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.790132Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.8082306Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.8275513Z","response":" grace","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.8461175Z","response":"ful","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.8647385Z","response":" gi","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.8827072Z","response":"ants","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9022378Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9216626Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9396681Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9578394Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9772093Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:22.9957023Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.0144592Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.0330411Z","response":"As","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.0524423Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.0698481Z","response":" sun","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.0886856Z","response":" r","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.1072954Z","response":"ises","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.1260744Z","response":" higher","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.144708Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.1636667Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.1821335Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.2016418Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.2215696Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.2394092Z","response":" led","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.2639327Z","response":" by","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.2874985Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.3069634Z","response":" wise","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.3263327Z","response":" elder","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.3454963Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.3648584Z","response":" begin","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.3837143Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.4025695Z","response":" daily","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.4229672Z","response":" routine","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.4419744Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.4598775Z","response":" They","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.4779013Z","response":" move","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5012333Z","response":" slowly","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5194691Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5386399Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5563975Z","response":" heavy","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5748925Z","response":" steps","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.5937822Z","response":" causing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.6117791Z","response":" only","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.6307052Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.6486031Z","response":" soft","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.6673724Z","response":"est","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.6858794Z","response":" echo","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.7042833Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.7216449Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.739941Z","response":" reson","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.7585609Z","response":"ate","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.7774963Z","response":" through","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.7961074Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.8135756Z","response":" quiet","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.8322726Z","response":" valley","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.85125Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.8707269Z","response":" Their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.8898299Z","response":" destination","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.9085095Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.9271119Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.9451912Z","response":" vast","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.9641132Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:23.9822191Z","response":" verd","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0026397Z","response":"ant","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0216027Z","response":" past","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0403512Z","response":"ure","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0591649Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0769999Z","response":" home","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.0962108Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.1145452Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.1318427Z","response":" finest","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.1507023Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.1693302Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.1870897Z","response":" in","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.2053476Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.2239146Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.2421521Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.2601582Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.278769Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.296794Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.3149501Z","response":"The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.3331419Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.3513274Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.3698894Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.3890391Z","response":" with","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.4079254Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.42599Z","response":" long","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.4462227Z","response":" neck","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.4655741Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.4843677Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5038262Z","response":" gentle","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5225965Z","response":" eyes","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5410539Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5595154Z","response":" approach","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5787349Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.5968223Z","response":" past","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.615153Z","response":"ure","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.6331302Z","response":" with","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.651132Z","response":" an","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.6699595Z","response":" air","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.6888847Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.7079025Z","response":" anticip","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.7281199Z","response":"ation","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.748516Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.7678271Z","response":" They","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.7859856Z","response":" kne","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.8055258Z","response":"el","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.8236395Z","response":" down","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.8415012Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.8607522Z","response":" n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.8791425Z","response":"ib","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.902754Z","response":"bling","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.9216017Z","response":" at","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.9442225Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.9620163Z","response":" tender","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:24.9801553Z","response":" shoot","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.0023325Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.0203408Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.038333Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.0564603Z","response":" that","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.074573Z","response":" tick","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.0958853Z","response":"le","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.1148988Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.1324664Z","response":" lips","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.151817Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.1702637Z","response":" The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.1886743Z","response":" elder","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.2064467Z","response":" ll","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.2263885Z","response":"ama","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.2446818Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.2631467Z","response":" with","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.281708Z","response":" its","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.2991145Z","response":" silver","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.3183195Z","response":" man","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.3382429Z","response":"e","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.3563478Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.3743704Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.3921646Z","response":" wisdom","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.4101168Z","response":" et","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.4280337Z","response":"ched","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.4471626Z","response":" into","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.4662373Z","response":" its","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.4846988Z","response":" wr","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5023295Z","response":"ink","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5204642Z","response":"led","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5386251Z","response":" face","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5580194Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5775628Z","response":" keeps","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.5963016Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.6143033Z","response":" watch","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.6327273Z","response":"ful","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.650914Z","response":" eye","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.6695771Z","response":" on","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.6885992Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7069596Z","response":" rest","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7255112Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7440052Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7630024Z","response":" her","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7818662Z","response":"d","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.7995071Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.817599Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.8354495Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.8527907Z","response":"The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.87089Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.8885411Z","response":" in","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9067376Z","response":" this","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9253565Z","response":" past","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9431144Z","response":"ure","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9611822Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9788764Z","response":" not","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:25.9983378Z","response":" just","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.0167459Z","response":" food","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.034462Z","response":" for","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.0549297Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.075429Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.0945063Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.1116107Z","response":";","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.1318244Z","response":" it","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.1506315Z","response":"'","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.1696352Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.194302Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.2130864Z","response":" symbol","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.2330451Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.2515965Z","response":" life","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.2726381Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.2920904Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.311299Z","response":" test","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.32942Z","response":"ament","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.3480419Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.3652149Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.383217Z","response":" res","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.4015422Z","response":"il","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.421022Z","response":"ience","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.4399629Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.4587194Z","response":" beauty","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.4763853Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.4947095Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.5128237Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.5301502Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.5491308Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.5664284Z","response":" The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.5844897Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.6025004Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.6215948Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.6396252Z","response":" n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.657635Z","response":"our","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.676074Z","response":"ishing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.6940378Z","response":" blend","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.713468Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.7311927Z","response":" native","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.7505537Z","response":" species","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.7713207Z","response":" that","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.7903919Z","response":" have","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.810195Z","response":" adapted","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.8299133Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.848484Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.8685197Z","response":" harsh","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.8881634Z","response":" climate","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.9087564Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.9284637Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.9470952Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.9658912Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:26.9850345Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.0039801Z","response":" providing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.0240977Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.0430429Z","response":" sustainable","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.063282Z","response":" food","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.0822535Z","response":" source","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.1014072Z","response":" for","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.1202786Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.1425347Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.1620845Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.181964Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.2002488Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.219441Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.2396972Z","response":"The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.2588057Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.2784862Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.2978323Z","response":" gra","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.3253236Z","response":"ze","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.3444652Z","response":" peace","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.3678456Z","response":"fully","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.3864467Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.4080435Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.4262776Z","response":" rhythm","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.4466771Z","response":"ic","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.4650331Z","response":" che","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.4849187Z","response":"wing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.5072694Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.5272057Z","response":" so","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.5468635Z","response":"othing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.5643083Z","response":" sound","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.5830766Z","response":"track","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6013368Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6189516Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6371538Z","response":" sym","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6567748Z","response":"phony","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6749884Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.6928091Z","response":" nature","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.7120077Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.7295966Z","response":" They","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.747625Z","response":" move","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.7651151Z","response":" from","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.7836957Z","response":" one","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.802567Z","response":" patch","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.821356Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.8389407Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.8583156Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.8763497Z","response":" another","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.896047Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.9145027Z","response":" ensuring","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.9349285Z","response":" that","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.9536379Z","response":" no","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.9733676Z","response":" single","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:27.9937169Z","response":" area","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.0119307Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.0306875Z","response":" over","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.0496522Z","response":"g","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.0686805Z","response":"raz","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.0880355Z","response":"ed","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.108145Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.1264607Z","response":" This","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.145924Z","response":" careful","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.1657023Z","response":" graz","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.1849084Z","response":"ing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.2090394Z","response":" practice","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.2605914Z","response":" helps","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.2685137Z","response":" maintain","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.2955104Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.312008Z","response":" health","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.3314726Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.3509655Z","response":" diversity","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.3708738Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.3912226Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.411052Z","response":" past","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.4301612Z","response":"ure","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.449562Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.4689314Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.488176Z","response":" practice","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.5083714Z","response":" passed","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.5278006Z","response":" down","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.547246Z","response":" through","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.5668375Z","response":" generations","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.5859399Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.6046529Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.6246825Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.6437464Z","response":"As","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.6636475Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.6826996Z","response":" sun","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.701782Z","response":" sets","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.7217401Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.7425132Z","response":" painting","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.7623308Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.7818051Z","response":" sky","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.8011199Z","response":" with","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.8207973Z","response":" h","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.8412783Z","response":"ues","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.8608541Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.880534Z","response":" orange","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.9005628Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.9197295Z","response":" pink","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.940338Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.959398Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.9795049Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:28.9985743Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.0177734Z","response":" return","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.0372683Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.0572871Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.0772259Z","response":" shel","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.0964632Z","response":"ters","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.1155406Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.1352388Z","response":" They","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.1538422Z","response":" have","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.1743696Z","response":" ful","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.1942781Z","response":"filled","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.2140992Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.2323844Z","response":" daily","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.2514309Z","response":" task","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.2746641Z","response":" -","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.2947908Z","response":" eating","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.3135348Z","response":" grass","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.3326451Z","response":" not","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.3513829Z","response":" just","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.3702662Z","response":" for","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.3902895Z","response":" survival","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.4107291Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.4350205Z","response":" but","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.4715061Z","response":" for","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.6415969Z","response":" preserv","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.6415969Z","response":"ing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.7366817Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.7366817Z","response":" delicate","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.8163882Z","response":" balance","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.8163882Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.8163882Z","response":" their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.8466794Z","response":" ecosystem","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.8776603Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.9018029Z","response":" Their","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:29.9525209Z","response":" graz","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.0129905Z","response":"ing","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.0509406Z","response":" habits","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.0509406Z","response":" help","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.0937232Z","response":" control","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.1389352Z","response":" invas","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.16192Z","response":"ive","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.1794151Z","response":" species","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2004041Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2193902Z","response":" promote","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2380924Z","response":" plant","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2594813Z","response":" diversity","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2778534Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.2972371Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.3161721Z","response":" prevent","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.3374835Z","response":" wild","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.3579779Z","response":"f","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.3771437Z","response":"ires","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.3974691Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.4160119Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.4353042Z","response":"\n","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.4539059Z","response":"The","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.4743343Z","response":" story","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.4938494Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.513176Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.5323358Z","response":" ll","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.5511498Z","response":"ama","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.5701383Z","response":" graz","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.589438Z","response":"ers","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.6112928Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.6295672Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.6504885Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.6684404Z","response":"es","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.6864483Z","response":" is","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7054411Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7252311Z","response":" test","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7435384Z","response":"ament","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7620919Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7810463Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.7994556Z","response":" harmony","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.8184684Z","response":" between","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.8372107Z","response":" nature","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.8557442Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.8755603Z","response":" its","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.8936338Z","response":" creatures","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.91319Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.9310274Z","response":" It","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.9491583Z","response":"'","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.9682054Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:30.98661Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.0052084Z","response":" reminder","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.0249326Z","response":" that","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.0439777Z","response":" every","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.0621514Z","response":" action","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.0811656Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.1001645Z","response":" no","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.1187256Z","response":" matter","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.1382859Z","response":" how","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.1564548Z","response":" small","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.176292Z","response":",","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.1941375Z","response":" can","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.2130777Z","response":" have","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.2319824Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.2495474Z","response":" significant","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.2683449Z","response":" impact","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.286805Z","response":" on","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3059494Z","response":" our","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3245966Z","response":" world","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3436883Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3610937Z","response":" And","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3795472Z","response":" it","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.3976917Z","response":"'","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.416225Z","response":"s","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.4347669Z","response":" a","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.4521533Z","response":" beautiful","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.4709194Z","response":" t","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.4904194Z","response":"ribute","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.5115698Z","response":" to","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.529095Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.5498393Z","response":" res","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.5686145Z","response":"il","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.5861091Z","response":"ience","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.6047628Z","response":" and","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.6244203Z","response":" wisdom","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.6426382Z","response":" of","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.6604607Z","response":" these","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.6816914Z","response":" fascinating","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7002965Z","response":" creatures","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7186529Z","response":" -","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7362764Z","response":" the","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7545988Z","response":" llam","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7727198Z","response":"as","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.7907496Z","response":".","done":false}
+{"model":"mistral","created_at":"2024-06-18T22:00:31.8109426Z","response":"","done":true,"done_reason":"stop","context":[3,4771,1117,1032,3606,1452,18388,1061,9420,10877,29473,4,14391,29515,1183,1161,29482,3554,1188,6005,1172,1070,1040,1783,1042,781,781,1425,1040,10201,10314,1072,12715,1513,28076,8490,1070,1040,1783,1042,29493,1032,5610,7105,10845,5626,1780,2138,29491,1429,29510,29481,1040,2489,1070,17446,29493,1072,1040,5144,29510,29481,1675,1176,1516,9142,1040,8667,29501,29485,4622,29440,29493,25436,1032,14631,23766,1522,1040,1073,2194,2182,1059,1614,4392,29491,1619,1117,1738,1136,1390,2068,1581,19289,2351,1155,1040,18388,1061,29493,14522,1775,5988,2317,1070,1040,1783,1042,29491,781,781,2966,1040,5144,1176,4668,5105,29493,1040,18388,1061,29493,4931,1254,1420,17214,16734,29493,3607,1420,7558,12703,29491,2074,3086,7928,29493,1420,6685,6712,13866,1633,1040,3432,1142,4662,1042,1066,17147,1148,1827,1040,6651,18450,29491,7491,11084,1117,1032,10323,29493,18838,1208,3377,1250,29493,2379,1066,1040,22329,10877,1042,1065,1040,1783,1042,29491,781,781,1782,18388,1061,29493,1163,1420,1811,7983,29481,1072,11202,3050,29493,5199,1040,3377,1250,1163,1164,3191,1070,13363,1120,29491,2074,8538,1069,1828,29493,1075,1361,7125,1206,1040,21370,6809,29481,1070,10877,1137,7252,1059,1420,9620,29491,1183,16734,9582,3554,29493,1163,1639,10514,1444,29474,1072,1032,17447,1679,2340,1546,1639,2193,1423,1774,2873,29493,12246,1032,3822,1775,6189,1124,1040,2614,1070,1040,1327,29483,29491,781,781,1782,10877,1065,1224,3377,1250,1117,1227,1544,3655,1122,1040,18388,1061,29513,1146,29510,29481,1032,6370,1070,2179,29493,1032,2137,2454,1066,1040,1373,1077,2408,1072,10457,1070,1040,1783,1042,29491,1183,10877,1117,1032,1075,1191,6364,21289,1070,9039,7786,1137,1274,23195,1066,1040,18906,12027,1070,1040,1783,1042,29493,8269,1032,20086,3655,3600,1122,1040,18388,1061,29491,781,781,1782,18388,1061,18984,2142,7173,3839,29493,1420,20602,1062,1765,10756,1032,1347,5950,3390,8590,1066,1040,5065,23094,1070,5503,29491,2074,3086,1245,1392,12548,1070,10877,1066,2466,29493,20851,1137,1476,3460,3466,1117,1522,29489,6005,1054,29491,1619,12059,27772,1056,6013,8031,9855,1040,3296,1072,19412,1070,1040,3377,1250,29493,1032,6013,5336,1828,1827,17574,29491,781,781,2966,1040,5144,7259,29493,12282,1040,7980,1163,1063,1907,1070,15313,1072,13705,29493,1040,18388,1061,1372,1066,1420,9584,2300,29491,2074,1274,5232,17451,1420,7558,4406,1155,9420,10877,1227,1544,1122,17624,29493,1330,1122,16944,1056,1040,22597,8641,1070,1420,28142,29491,7491,27772,1056,20073,2084,3370,29374,1263,7786,29493,12479,5868,19412,29493,1072,6065,6875,29490,3821,29491,781,781,1782,3606,1070,1040,9582,3554,27772,1172,1070,1040,1783,1042,1117,1032,2137,2454,1066,1040,20279,2212,5503,1072,1639,19117,29491,1429,29510,29481,1032,26331,1137,1780,3760,29493,1476,3977,1678,2509,29493,1309,1274,1032,6632,5856,1124,1581,2294,29491,1783,1146,29510,29481,1032,5440,1029,2751,1066,1040,1373,1077,2408,1072,17447,1070,1935,23837,19117,1155,1040,18388,1061,29491],"total_duration":52900337700,"load_duration":41841967300,"prompt_eval_count":13,"prompt_eval_duration":82293000,"eval_count":539,"eval_duration":10960137000}

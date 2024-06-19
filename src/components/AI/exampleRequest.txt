@@ -1,0 +1,4 @@
+curl -X POST http://localhost:11434/api/generate -d '{
+  "model": "mistral",
+  "prompt":"Here is a story about llamas eating grass"
+ }'
