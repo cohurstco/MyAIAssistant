@@ -1,0 +1,28 @@
+{
+  "name": "mern-note-taking-app",
+  "version": "1.0.0",
+  "description": "A simple note-taking app built with the MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.ts",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p .",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "install": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "note-taking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "concurrently": "^6.5.1"
+  }
+}
