@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crawl Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+        .sitemap-info {
+            background-color: #e6f3ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .url-info {
+            background-color: #f0f0f0;
+            border: 1px solid #d9d9d9;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .url-info h3 {
+            margin-top: 0;
+        }
+        .url-info p {
+            margin: 5px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crawl Results</h1>
+    {% if error %}
+        <p class="error">Error: {{ error }}</p>
+    {% elif sitemaps %}
+        <h2>Sitemaps found:</h2>
+        {% for sitemap in sitemaps %}
+            <div class="sitemap-info">
+                <h3>Sitemap Type: {{ sitemap.sitemap_type }}</h3>
+                {% if sitemap.xmlns %}
+                    <p><strong>xmlns:</strong> {{ sitemap.xmlns }}</p>
+                {% endif %}
+                {% if sitemap.loc %}
+                    <p><strong>Location:</strong> <a href="{{ sitemap.loc }}" target="_blank">{{ sitemap.loc }}</a></p>
+                {% endif %}
+                {% for key, value in sitemap.items() %}
+                    {% if key not in ['sitemap_type', 'xmlns', 'loc'] and value %}
+                        <p><strong>{{ key }}:</strong> {{ value }}</p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No sitemaps found.</p>
+    {% endif %}
+    <a href="/">Back to home</a>
+</body>
+</html>

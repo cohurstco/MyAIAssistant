@@ -1,0 +1,677 @@
+repo_name: hurstcorey/MyAssistant
+report_id: '093ff95487655a5546b824a0360ce04a'
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:30:42+00:00'
+requested_by: hurstcorey
+provider: github
+branch: typescript
+detected_tools_count: 49
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hurstcorey/MyAssistant
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/hurstcorey/MyAssistant
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.17.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: ".babelrc"
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.72.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: AWS Lambda
+  description: Automatically run code in response to modifications to objects in Amazon
+    S3 buckets, messages in Kinesis streams, or updates in DynamoDB
+  website_url: http://aws.amazon.com/lambda
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: Serverless
+  description: The most widely-adopted toolkit for building serverless applications
+  website_url: https://github.com/serverless/serverless
+  version: 3.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/5095/serverless-logo.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.17.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.16.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@babel/preset-stage-2"
+  description: Babel preset for stage 2 plugins
+  package_url: https://www.npmjs.com/@babel/preset-stage-2
+  version: 7.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17615/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/aws-lambda"
+  description: TypeScript definitions for AWS Lambda
+  package_url: https://www.npmjs.com/@types/aws-lambda
+  version: 8.10.93
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17868/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/babel-core"
+  description: TypeScript definitions for babel-core
+  package_url: https://www.npmjs.com/@types/babel-core
+  version: 6.25.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18694/default_48849ae4fec5cb3120647d46f699d0e84ca18ae7.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/babel__core"
+  description: TypeScript definitions for @babel/core
+  package_url: https://www.npmjs.com/@types/babel__core
+  version: 7.1.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18415/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/core-js"
+  description: TypeScript definitions for core-js
+  package_url: https://www.npmjs.com/@types/core-js
+  version: 2.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16420/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 27.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.44
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/source-map-support"
+  description: TypeScript definitions for source-map-support
+  package_url: https://www.npmjs.com/@types/source-map-support
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18129/image.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/webpack"
+  description: TypeScript definitions for webpack
+  package_url: https://www.npmjs.com/@types/webpack
+  version: 4.41.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16215/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: "@types/webpack-dev-server"
+  description: TypeScript definitions for webpack-dev-server
+  package_url: https://www.npmjs.com/@types/webpack-dev-server
+  version: 4.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17966/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1116.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: clean-webpack-plugin
+  description: A webpack plugin to remove/clean your build folder
+  package_url: https://www.npmjs.com/clean-webpack-plugin
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: identity-obj-proxy
+  description: An identity object using ES6 proxies
+  package_url: https://www.npmjs.com/identity-obj-proxy
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16206/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: null-loader
+  description: A webpack loader that returns an empty module
+  package_url: https://www.npmjs.com/null-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: tsconfig-paths-webpack-plugin
+  description: Load modules according to tsconfig paths in webpack
+  package_url: https://www.npmjs.com/tsconfig-paths-webpack-plugin
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17311/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/hurstcorey/MyAssistant/blob/typescript/package-lock.json
+  detection_source: package.json
+  last_updated_by: Corey Lee Hurst
+  last_updated_on: 2023-08-11 01:09:50.000000000 Z

@@ -5,6 +5,7 @@ This document provides a detailed list of technologies and their versions used i
 ## MERN Stack Note-Taking App
 
 ### Frontend
+
 - React: 17.0.2
 - TypeScript: 4.x
 - CSS Loader: Latest version
@@ -12,12 +13,14 @@ This document provides a detailed list of technologies and their versions used i
 - Babel: 7.17.9
 
 ### Backend
+
 - Node.js: 14.x or later
 - Express.js: 4.x
 - MongoDB: 4.x
 - Mongoose: 6.x
 
 ### Testing
+
 - Jest: 27.5.1
 - React Testing Library: Latest version
 

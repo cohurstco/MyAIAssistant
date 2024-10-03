@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "MyToDoApp",
+			"path": "MyToDoApp"
+		},
+		{
+			"name": "frontend",
+			"path": "MyToDoApp/frontend"
+		},
+		{
+			"name": "backend",
+			"path": "MyToDoApp/backend"
+		},
+		{
+			"name": "SitemapCrawler",
+			"path": "SitemapCrawler"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"MyAIAssistant",
+			"MyToDoApp",
+			"frontend"
+		]
+	}
+}
