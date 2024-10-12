@@ -4,12 +4,12 @@
   "description": "A simple note-taking app built with the MERN stack",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.ts",
-    "dev": "nodemon src/server.ts",
-    "build": "tsc -p .",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm start",
     "client": "cd frontend && npm start",
-    "install": "cd backend && npm install && cd ../frontend && npm install"
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "test": "cd backend && npm test && cd ../frontend && npm test"
   },
   "keywords": [
     "mern",

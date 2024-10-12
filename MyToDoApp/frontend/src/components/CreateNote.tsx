@@ -19,13 +19,15 @@ function CreateNote() {
 
     const note = {
       title: title,
-      content: content
+      content: content,
+      author: 'Default Author' // Add a default author or implement author selection
     }
 
     console.log(note);
 
-    axios.post('http://localhost:5000/api/notes/add', note)
-      .then(res => console.log(res.data));
+    axios.post('http://localhost:5000/api/notes', note)
+      .then(res => console.log(res.data))
+      .catch(err => console.error('Error creating note:', err));
 
     navigate('/');
   }

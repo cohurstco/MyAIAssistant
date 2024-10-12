@@ -9,43 +9,56 @@ const router = express_1.default.Router();
 router.route('/').get((req, res) => {
     note_model_1.default.find()
         .then((notes) => res.json(notes))
-        .catch((err) => res.status(400).json('Error: ' + err));
+        .catch((err) => res.status(400).json({ error: err.message }));
 });
-router.route('/add').post((req, res) => {
-    const title = req.body.title;
-    const content = req.body.content;
+router.route('/').post((req, res) => {
+    const { title, content, author } = req.body;
+    if (!title || !content || !author) {
+        return res.status(400).json({ error: 'Missing required fields' });
+    }
     const newNote = new note_model_1.default({
         title,
         content,
+        author
     });
     newNote.save()
-        .then(() => res.json('Note added!'))
-        .catch((err) => res.status(400).json('Error: ' + err));
+        .then((note) => res.status(201).json(note))
+        .catch((err) => res.status(400).json({ error: err.message }));
 });
 router.route('/:id').get((req, res) => {
     note_model_1.default.findById(req.params.id)
-        .then((note) => res.json(note))
-        .catch((err) => res.status(400).json('Error: ' + err));
+        .then((note) => {
+        if (note) {
+            res.json(note);
+        }
+        else {
+            res.status(404).json({ error: 'Note not found' });
+        }
+    })
+        .catch((err) => res.status(400).json({ error: err.message }));
+});
+router.route('/:id').put((req, res) => {
+    note_model_1.default.findByIdAndUpdate(req.params.id, req.body, { new: true })
+        .then((note) => {
+        if (note) {
+            res.json(note);
+        }
+        else {
+            res.status(404).json({ error: 'Note not found' });
+        }
+    })
+        .catch((err) => res.status(400).json({ error: err.message }));
 });
 router.route('/:id').delete((req, res) => {
     note_model_1.default.findByIdAndDelete(req.params.id)
-        .then(() => res.json('Note deleted.'))
-        .catch((err) => res.status(400).json('Error: ' + err));
-});
-router.route('/update/:id').post((req, res) => {
-    note_model_1.default.findById(req.params.id)
         .then((note) => {
         if (note) {
-            note.title = req.body.title;
-            note.content = req.body.content;
-            note.save()
-                .then(() => res.json('Note updated!'))
-                .catch((err) => res.status(400).json('Error: ' + err));
+            res.json({ message: 'Note deleted successfully' });
         }
         else {
-            res.status(404).json('Note not found');
+            res.status(404).json({ error: 'Note not found' });
         }
     })
-        .catch((err) => res.status(400).json('Error: ' + err));
+        .catch((err) => res.status(400).json({ error: err.message }));
 });
 exports.default = router;

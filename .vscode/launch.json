@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch MyToDoApp Backend",
+            "program": "${workspaceFolder}/MyToDoApp/backend/${input:backendEntryPoint}",
+            "cwd": "${workspaceFolder}/MyToDoApp/backend",
+            "envFile": "${workspaceFolder}/MyToDoApp/backend/.env"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch MyToDoApp Frontend",
+            "program": "${workspaceFolder}/MyToDoApp/frontend/${input:frontendEntryPoint}",
+            "cwd": "${workspaceFolder}/MyToDoApp/frontend"
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch Sitemap Crawler",
+            "program": "${workspaceFolder}/SitemapCrawler/${input:sitemapCrawlerEntryPoint}",
+            "cwd": "${workspaceFolder}/SitemapCrawler",
+            "envFile": "${workspaceFolder}/SitemapCrawler/.env"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "backendEntryPoint",
+            "description": "Enter the entry point for the MyToDoApp backend (e.g., server.js)"
+        },
+        {
+            "type": "promptString",
+            "id": "frontendEntryPoint",
+            "description": "Enter the entry point for the MyToDoApp frontend (e.g., index.js)"
+        },
+        {
+            "type": "promptString",
+            "id": "sitemapCrawlerEntryPoint",
+            "description": "Enter the entry point for the Sitemap Crawler (e.g., main.py)"
+        }
+    ]
+}

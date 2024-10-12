@@ -66,4 +66,43 @@ describe('Notes API', () => {
     const deletedNote = await Note.findById(note._id);
     expect(deletedNote).toBeNull();
   });
+
+  // New test cases
+
+  it('POST /api/notes --> error on missing required fields', async () => {
+    const response = await request(app)
+      .post('/api/notes')
+      .send({
+        title: 'Incomplete Note'
+      });
+    expect(response.status).toBe(400);
+    expect(response.body).toHaveProperty('error');
+  });
+
+  it('PUT /api/notes/:id --> error on updating non-existent note', async () => {
+    const fakeId = new mongoose.Types.ObjectId();
+    const response = await request(app)
+      .put(`/api/notes/${fakeId}`)
+      .send({
+        title: 'Updated Test Note',
+        content: 'This is an updated test note',
+        author: 'Updater'
+      });
+    expect(response.status).toBe(404);
+    expect(response.body).toHaveProperty('error');
+  });
+
+  it('DELETE /api/notes/:id --> error on deleting non-existent note', async () => {
+    const fakeId = new mongoose.Types.ObjectId();
+    const response = await request(app).delete(`/api/notes/${fakeId}`);
+    expect(response.status).toBe(404);
+    expect(response.body).toHaveProperty('error');
+  });
+
+  it('GET /api/notes/:id --> error on getting non-existent note', async () => {
+    const fakeId = new mongoose.Types.ObjectId();
+    const response = await request(app).get(`/api/notes/${fakeId}`);
+    expect(response.status).toBe(404);
+    expect(response.body).toHaveProperty('error');
+  });
 });

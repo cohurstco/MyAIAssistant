@@ -18,7 +18,7 @@
     - [Installation](#installation)
     - [Configuration](#configuration)
   - [Usage](#usage)
-    - [MERN Stack Note-Taking App](#mern-stack-note-taking-app)
+    - [MyToDoApp (MERN Stack Note-Taking App)](#mytodoapp-mern-stack-note-taking-app)
     - [Sitemap Crawler](#sitemap-crawler)
   - [Project Structure](#project-structure)
   - [Technologies Used](#technologies-used)
@@ -31,7 +31,7 @@
 
 ## Project Overview
 
-This multi-application project combines various technologies and tools to create a comprehensive software solution. It includes a MERN stack note-taking application, a Python-based sitemap crawler, and various DevOps and AI components.
+This multi-application project combines various technologies and tools to create a comprehensive software solution. It includes MyToDoApp (a MERN stack note-taking application), a Python-based sitemap crawler, and various DevOps and AI components.
 
 ### Purpose
 
@@ -39,7 +39,7 @@ The project aims to demonstrate the integration of different technologies and pr
 
 ### Key Features
 
-- MERN stack note-taking application
+- MyToDoApp: A MERN stack note-taking application for creating, reading, updating, and deleting notes
 - Python-based sitemap crawler
 - AI integration for enhanced functionality (e.g., natural language processing for notes, intelligent sitemap analysis)
 - Comprehensive DevOps setup with CI/CD pipeline
@@ -47,22 +47,22 @@ The project aims to demonstrate the integration of different technologies and pr
 
 ### Technology Stacks
 
-- MERN (MongoDB, Express, React, Node.js)
-- Python (Flask, FastAPI)
+- MERN (MongoDB, Express, React, Node.js) for MyToDoApp
+- Python (Flask, FastAPI) for Sitemap Crawler
 - AI/ML tools and libraries (e.g., TensorFlow, scikit-learn)
 - DevOps tools (Docker, Terraform)
 - Serverless (AWS Lambda)
 
 ### High-level Architecture
 
-The project follows a microservices architecture, with each application functioning independently while sharing common infrastructure and DevOps practices. The MERN stack application handles note-taking functionality, while the Python-based sitemap crawler provides web crawling capabilities. AI components are integrated to enhance various features across the applications, such as intelligent note categorization and advanced sitemap analysis.
+The project follows a microservices architecture, with each application functioning independently while sharing common infrastructure and DevOps practices. MyToDoApp handles note-taking functionality, while the Python-based sitemap crawler provides web crawling capabilities. AI components are integrated to enhance various features across the applications, such as intelligent note categorization and advanced sitemap analysis.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js and npm
-- Python 3.x
+- Node.js and npm (for MyToDoApp)
+- Python 3.x (for Sitemap Crawler)
 - MongoDB
 - Docker
 - AWS CLI
@@ -78,12 +78,14 @@ The project follows a microservices architecture, with each application function
 
 2. Install dependencies for each application:
    ```
-   # For the MERN stack application
+   # For MyToDoApp (MERN stack application)
    cd MyToDoApp
    npm install
+   cd frontend && npm install
+   cd ../backend && npm install
 
    # For the Sitemap Crawler
-   cd ../SitemapCrawler
+   cd ../../SitemapCrawler
    pip install -r requirements.txt
    ```
 
@@ -92,20 +94,30 @@ The project follows a microservices architecture, with each application function
 
 ### Configuration
 
-1. Configure MongoDB connection string in the MERN stack application.
+1. For MyToDoApp:
+   - Configure MongoDB connection string in the `backend/.env` file:
+     ```
+     ATLAS_URI=your_mongodb_connection_string
+     PORT=5000
+     ```
 2. Set up AWS credentials for serverless deployments.
 3. Configure AI services as needed.
 
 ## Usage
 
-### MERN Stack Note-Taking App
+### MyToDoApp (MERN Stack Note-Taking App)
 
-1. Start the server and client concurrently:
+1. Start the backend server:
    ```
-   cd MyToDoApp
-   npm run dev
+   cd MyToDoApp/backend
+   npm start
    ```
-2. Open your web browser and navigate to `http://localhost:3000`
+2. In a new terminal, start the frontend development server:
+   ```
+   cd MyToDoApp/frontend
+   npm start
+   ```
+3. Open your web browser and navigate to `http://localhost:3000`
 
 ### Sitemap Crawler
 
@@ -157,7 +169,7 @@ For a complete list of technologies and their versions, please refer to the `tec
 
 We maintain a comprehensive test suite to ensure code quality and prevent regressions. To run the tests:
 
-1. For the MERN stack application:
+1. For MyToDoApp:
    ```
    cd MyToDoApp
    npm test
@@ -196,7 +208,9 @@ For more information on our DevOps practices, please refer to the `documentation
 
 ## Application-Specific Documentation
 
-- [MERN Stack Note-Taking App](./MyToDoApp/README.md) - A full-stack note-taking application built with MongoDB, Express, React, and Node.js.
+- [MyToDoApp](./MyToDoApp/README.md) - A full-stack note-taking application built with MongoDB, Express, React, and Node.js.
+  - [Frontend README](./MyToDoApp/frontend/README.md) - Details about the React frontend.
+  - [Backend README](./MyToDoApp/backend/README.md) - Information about the Express backend and API.
 - [Sitemap Crawler](./SitemapCrawler/README.md) - A Python-based application for crawling and analyzing website sitemaps.
 - [AI Documentation](./documentation/ai/AI_README.md) - Information about AI models and services used in the project.
 - [Database Documentation](./documentation/database/DATABASES_README.md) - Details about database setup and management.

@@ -36,8 +36,9 @@ function EditNote() {
 
     console.log(note);
 
-    axios.post(`http://localhost:5000/api/notes/update/${id}`, note)
-      .then(res => console.log(res.data));
+    axios.put(`http://localhost:5000/api/notes/${id}`, note)
+      .then(res => console.log(res.data))
+      .catch(error => console.error('Error updating note:', error));
 
     navigate('/');
   }
@@ -59,17 +60,18 @@ function EditNote() {
             onChange={e => setTitle(e.target.value)}
             aria-label="Note title"
           />
-          <div className="form-group">
-            <label htmlFor="content-input">Content: </label>
-            <textarea 
-                id="content-input"
-                required
-                className="form-control"
+          <TextField
+            fullWidth
+            label="Content"
+            variant="outlined"
+            margin="normal"
+            required
+            multiline
+            rows={4}
             value={content}
             onChange={e => setContent(e.target.value)}
             aria-label="Note content"
           />
-          </div>
           <Box sx={{ mt: 2 }}>
             <Button 
               type="submit" 

@@ -1,6 +1,63 @@
-# Getting Started with Create React App
+# MyToDoApp Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend for the MyToDoApp, a simple note-taking application built with React.
+
+## Table of Contents
+
+- [MyToDoApp Frontend](#mytodoapp-frontend)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [API Endpoints](#api-endpoints)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+  - [Components](#components)
+  - [Dependencies](#dependencies)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Learn More](#learn-more)
+
+## Installation
+
+1. Clone the repository:
+
+   ```BASH
+   git clone https://github.com/yourusername/MyToDoApp.git
+   ```
+
+2. Navigate to the frontend directory:
+
+   ```BASH
+   cd MyToDoApp/frontend
+   ```
+
+3. Install the dependencies:
+
+   ```BASH
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
+
+```BASH
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## API Endpoints
+
+The frontend interacts with the backend API running on `http://localhost:5000`. Here are the endpoints used:
+
+- `GET http://localhost:5000/api/notes/`: Fetch all notes
+- `POST http://localhost:5000/api/notes/`: Create a new note
+- `GET http://localhost:5000/api/notes/:id`: Fetch a specific note by ID
+- `PUT http://localhost:5000/api/notes/:id`: Update a specific note by ID
+- `DELETE http://localhost:5000/api/notes/:id`: Delete a specific note by ID
 
 ## Available Scripts
 
@@ -29,42 +86,39 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `NotesList`: Displays all notes and handles note deletion
+- `CreateNote`: Handles creation of new notes
+- `EditNote`: Handles editing of existing notes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Main dependencies include:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- react
+- react-router-dom
+- axios
+- @mui/material
+
+For a full list of dependencies, please refer to the `package.json` file.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
