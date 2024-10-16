@@ -23,7 +23,8 @@ flask_app = Flask(__name__)
 
 @app.get("/api/crawl")
 async def crawl_sitemap(url: str):
-    # ... (keep existing crawl_sitemap function)
+    # Placeholder implementation
+    return {"message": "Crawl functionality not yet implemented"}
 
 @app.get("/api/rag")
 async def rag_query(url: str, query: str):
