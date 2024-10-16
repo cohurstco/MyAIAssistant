@@ -17,23 +17,25 @@ const Stack = createStackNavigator<RootStackParamList>();
 const App: React.FC = () => {
   return (
     <NavigationContainer>
+      {() => (
       <Stack.Navigator initialRouteName="NotesList">
-        <Stack.Screen 
-          name="NotesList" 
-          component={NotesList} 
-          options={{ title: 'Notes' }}
+          <Stack.Screen 
+            name="NotesList" 
+            component={NotesList} 
+          options={{ title: 'Notes List' }}
         />
-        <Stack.Screen 
-          name="CreateNote" 
-          component={CreateNote} 
+          <Stack.Screen 
+            name="CreateNote" 
+            component={CreateNote} 
           options={{ title: 'Create Note' }}
         />
-        <Stack.Screen 
-          name="EditNote" 
-          component={EditNote} 
+          <Stack.Screen 
+            name="EditNote" 
+            component={EditNote} 
           options={{ title: 'Edit Note' }}
         />
       </Stack.Navigator>
+      )}
     </NavigationContainer>
   );
 };

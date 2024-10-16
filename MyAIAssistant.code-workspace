@@ -18,6 +18,9 @@
 		{
 			"name": "SitemapCrawler",
 			"path": "SitemapCrawler"
+		},
+		{
+			"path": "../aider"
 		}
 	],
 	"settings": {
