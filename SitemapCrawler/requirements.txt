@@ -4,3 +4,12 @@ uvicorn==0.31.0
 requests==2.31.0
 beautifulsoup4==4.12.3
 pandas==2.2.3
+fastapi
+httpx
+beautifulsoup4
+uvicorn
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+openai
