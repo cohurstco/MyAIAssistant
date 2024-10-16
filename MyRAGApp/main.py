@@ -9,12 +9,12 @@ import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
 from langchain import hub
-from langchain_chroma import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import WebBaseLoader
+from langchain_community.vectorstores import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 app = FastAPI()
 flask_app = Flask(__name__)
@@ -29,7 +29,7 @@ async def crawl_sitemap(url: str):
 @app.get("/api/rag")
 async def rag_query(url: str, query: str):
     # Load the content of the URL
-    loader = WebBaseLoader(web_paths=[url])
+    loader = WebBaseLoader(url)
     docs = loader.load()
 
     # Split the document into chunks
@@ -76,6 +76,13 @@ async def crawl():
         return render_template('result.html', sitemaps=df.to_dict(orient='records'))
     else:
         return render_template('result.html', error=result.get('error', 'Unknown error occurred'))
+
+@flask_app.route('/rag', methods=['POST'])
+async def rag():
+    url = request.form['url']
+    query = request.form['query']
+    result = await rag_query(url, query)
+    return render_template('rag_result.html', answer=result['answer'])
 
 def run_flask():
     flask_app.run(host="0.0.0.0", port=5000)
