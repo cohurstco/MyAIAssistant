@@ -13,3 +13,14 @@ langchain-community
 langchain-openai
 langchain-chroma
 openai
+fastapi
+flask
+uvicorn
+beautifulsoup4
+requests
+pandas
+langchain
+langchain_community
+langchain_core
+langchain_openai
+chromadb
