@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from flask import Flask, render_template, request
 import uvicorn
@@ -16,8 +18,16 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
+# Load environment variables from .env file
+load_dotenv()
+
 app = FastAPI()
 flask_app = Flask(__name__)
+
+# Get OpenAI API key from environment variable
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if not openai_api_key:
+    raise ValueError("OPENAI_API_KEY not found in environment variables")
 
 # ... (keep all existing functions)
 
@@ -37,7 +47,7 @@ async def rag_query(url: str, query: str):
     splits = text_splitter.split_documents(docs)
 
     # Create a vector store
-    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings())
+    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings(openai_api_key=openai_api_key))
 
     # Create a retriever
     retriever = vectorstore.as_retriever()
@@ -46,7 +56,7 @@ async def rag_query(url: str, query: str):
     prompt = hub.pull("rlm/rag-prompt")
 
     # Create the RAG chain
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=openai_api_key)
     
     def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
