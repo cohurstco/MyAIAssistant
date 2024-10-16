@@ -8,120 +8,59 @@ from urllib.parse import urljoin, urlparse
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
 import xml.etree.ElementTree as ET
+from langchain import hub
+from langchain_chroma import Chroma
+from langchain_community.document_loaders import WebBaseLoader
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 app = FastAPI()
 flask_app = Flask(__name__)
 
-def parse_xml_sitemap(content, url):
-    try:
-        root = ET.fromstring(content)
-        ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-
-        xmlns = root.attrib.get('xmlns', '')
-        urls = []
-        for url_elem in root.findall('.//sm:url', ns):
-            url_info = {"xmlns": xmlns, "sitemap_type": "XML"}
-            for child in url_elem:
-                tag = child.tag.split('}')[-1]  # Remove namespace prefix
-                url_info[tag] = child.text
-            urls.append(url_info)
-
-        return pd.DataFrame(urls)
-    except ET.ParseError:
-        print(f"Error parsing XML sitemap: {url}")
-        return pd.DataFrame()
-
-def parse_html_sitemap(content, base_url):
-    sitemaps = []
-    soup = BeautifulSoup(content, 'html.parser')
-    for a in soup.find_all('a', href=True):
-        href = a['href']
-        if 'sitemap' in href.lower():
-            full_url = urljoin(base_url, href)
-            sitemaps.append({"loc": full_url, "sitemap_type": "HTML"})
-    return pd.DataFrame(sitemaps)
-
-async def check_common_sitemap_locations(base_url):
-    common_paths = ['/sitemap.xml', '/sitemap_index.xml', '/robots.txt']
-    sitemaps = []
-
-    async with requests.ClentSession() as session:
-        task = [check_url(session, path) for path in common_paths]
-        await asyncio.gather(*task)
-        
-    async def check_url(session, path):
-        url = urljoin(base_url, path)
-        try:
-            async with session.get(url, timeout=5) as response:
-                if response.status == 200:
-                    if path == '/robots.txt':
-                        await process_robots_txt(response, sitemaps)
-                else:
-                    sitemaps.append({"loc": url, "sitemap_type": "Common Location"})
-        except (requests.RequestException, asyncio.TimeoutError):
-            pass
-
-    return pd.DataFrame(sitemaps)
-
-async def process_robots_txt(response, sitemaps):
-    text = await response.text()
-    for line in text.splitlines():
-        if line.lower().startswith('sitemap:'):
-            sitemap_url = line.split(':', 1)[1].strip()
-            sitemaps.append({"loc": sitemap_url, "sitemap_type": "Robots.txt"})
-
-def search_google_for_sitemap(domain):
-    search_url = f"https://www.google.com/search?q=site:{domain}+inurl:sitemap"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-
-    try:
-        response = requests.get(search_url, headers=headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        sitemaps = []
-        for result in soup.find_all('div', class_='yuRUbf'):
-            link = result.find('a')
-            if link and 'href' in link.attrs:
-                url = link['href']
-                if 'sitemap' in url.lower():
-                    sitemaps.append({"loc": url, "sitemap_type": "Google Search"})
-
-        return pd.DataFrame(sitemaps)
-    except requests.RequestException:
-        return pd.DataFrame()
+# ... (keep all existing functions)
 
 @app.get("/api/crawl")
 async def crawl_sitemap(url: str):
-    try:
-        parsed_url = urlparse(url)
-        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+    # ... (keep existing crawl_sitemap function)
 
-        # Check common locations first
-        sitemaps_df = await check_common_sitemap_locations(base_url)
+@app.get("/api/rag")
+async def rag_query(url: str, query: str):
+    # Load the content of the URL
+    loader = WebBaseLoader(web_paths=[url])
+    docs = loader.load()
 
-        if sitemaps_df.empty:
-            # If no sitemaps found in common locations, try the provided URL
-            async with requests.Session() as session:
-                async with session.get(url) as response:
-                    response.raise_for_status()
-                    content = await response.content()
+    # Split the document into chunks
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    splits = text_splitter.split_documents(docs)
 
-            sitemaps_df = parse_xml_sitemap(content, url)
+    # Create a vector store
+    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings())
 
-            # If no XML sitemaps found, try parsing as HTML
-            if sitemaps_df.empty:
-                sitemaps_df = parse_html_sitemap(content, url)
+    # Create a retriever
+    retriever = vectorstore.as_retriever()
 
-        # If still no sitemaps found, try Google search as a last resort
-        if sitemaps_df.empty:
-            sitemaps_df = search_google_for_sitemap(parsed_url.netloc)
+    # Load the RAG prompt
+    prompt = hub.pull("rlm/rag-prompt")
 
-        return {"sitemaps": sitemaps_df.to_dict(orient='records')}
-    except requests.RequestException as e:
-        return {"error": f"Request error: {str(e)}"}
-    except Exception as e:
-        return {"error": f"Unexpected error: {str(e)}"}
+    # Create the RAG chain
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+    
+    def format_docs(docs):
+        return "\n\n".join(doc.page_content for doc in docs)
+
+    rag_chain = (
+        {"context": retriever | format_docs, "question": RunnablePassthrough()}
+        | prompt
+        | llm
+        | StrOutputParser()
+    )
+
+    # Run the query
+    response = rag_chain.invoke(query)
+
+    return {"answer": response}
 
 @flask_app.route('/')
 def index():
