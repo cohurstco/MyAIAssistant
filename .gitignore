@@ -137,8 +137,11 @@ dist
 # TernJS port file
 .tern-port
 
+# VSCode User Settings
+.vscode*
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+# .vscode-test
+MyAIAssistant.code-workspace
 
 # yarn v2
 .yarn/cache
@@ -325,5 +328,14 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python,git,node
+# Aider conversations
 .aider*
+
+# Continue Prompts
+.prompts
+
+# My Knowledge Base Folders
+MyKnowledge/
+
+# End of https://www.toptal.com/developers/gitignore/api/python,git,node
+

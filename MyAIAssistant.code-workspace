@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
+			"name": "MyAIAssistant",
 			"path": "."
+		},
+		{
+			"name": "MyRAGApp",
+			"path": "MyRAGApp"
 		},
 		{
 			"name": "MyToDoApp",
@@ -16,18 +21,14 @@
 			"path": "MyToDoApp/backend"
 		},
 		{
-			"name": "SitemapCrawler",
-			"path": "SitemapCrawler"
+			"name": "aider",
+			"path": "../aider"
 		},
 		{
-			"path": "../aider"
+			"name": "MyKnowledge",
+			"path": "../../../../../MyKnowledge"
 		}
 	],
 	"settings": {
-		"jest.disabledWorkspaceFolders": [
-			"MyAIAssistant",
-			"MyToDoApp",
-			"frontend"
-		]
 	}
 }
