@@ -93,6 +93,21 @@ async def maia_query(query: str):
     
     return {"answer": response}
 
+@app.get("/api/view_vectorstore")
+async def view_vectorstore():
+    global vectorstore
+    
+    if not vectorstore:
+        return {"contents": []}
+    
+    # Retrieve all documents from the vector store
+    documents = vectorstore.get()
+    
+    # Extract the content from each document
+    contents = [doc.page_content for doc in documents]
+    
+    return {"contents": contents}
+
 @flask_app.route('/')
 def index():
     return render_template('index.html')

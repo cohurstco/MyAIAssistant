@@ -5,11 +5,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 import NotesList from './src/components/NotesList';
 import CreateNote from './src/components/CreateNote';
 import EditNote from './src/components/EditNote';
+import ViewVectorStore from './src/components/ViewVectorStore';
 
 export type RootStackParamList = {
   NotesList: undefined;
   CreateNote: undefined;
   EditNote: { noteId: string };
+  ViewVectorStore: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -32,6 +34,11 @@ const App: React.FC = () => {
           name="EditNote" 
           component={EditNote} 
           options={{ title: 'Edit Note' }}
+        />
+        <Stack.Screen 
+          name="ViewVectorStore" 
+          component={ViewVectorStore} 
+          options={{ title: 'View Vector Store' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
