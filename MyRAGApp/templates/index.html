@@ -3,31 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitemap Crawler</title>
+    <title>MyAIAssistant</title>
 </head>
 <body>
-    <h1>Sitemap Crawler</h1>
-    <form action="/crawl" method="post">
-        <label for="url">Enter URL:</label>
-        <input type="url" id="url" name="url" required>
-        <button type="submit">Crawl</button>
-    </form>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAG Application</title>
-</head>
-<body>
-    <h1>RAG Application</h1>
-    <form action="/rag" method="post">
-        <label for="url">URL:</label>
-        <input type="url" id="url" name="url" required><br><br>
-        <label for="query">Query:</label>
-        <input type="text" id="query" name="query" required><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <h1>Welcome to MyAIAssistant</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('sitemap_crawler') }}">SiteMap Crawler</a></li>
+            <li><a href="{{ url_for('maia') }}">MAIA (MyAIAssistant)</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
